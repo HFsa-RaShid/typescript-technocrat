@@ -7,6 +7,7 @@
     const kgToGm = (value) => {
         if (typeof value === 'string') {
             const convert = parseFloat(value) * 1000;
+            // console.log(`The converted value: ${convert}`);
             return `The converted value: ${convert}`;
         }
         if (typeof value === 'number') {
